@@ -1,0 +1,97 @@
+{
+ "version": "auto-py-to-exe-configuration_v1",
+ "pyinstallerOptions": [
+  {
+   "optionDest": "noconfirm",
+   "value": true
+  },
+  {
+   "optionDest": "filenames",
+   "value": "C:/Users/rando/Downloads/Test_Folder/Standard_Engineering_Formulation_Calculator.py"
+  },
+  {
+   "optionDest": "onefile",
+   "value": true
+  },
+  {
+   "optionDest": "console",
+   "value": false
+  },
+  {
+   "optionDest": "icon_file",
+   "value": "C:/Users/rando/Downloads/Hidden Sun.ico"
+  },
+  {
+   "optionDest": "clean_build",
+   "value": false
+  },
+  {
+   "optionDest": "strip",
+   "value": false
+  },
+  {
+   "optionDest": "noupx",
+   "value": false
+  },
+  {
+   "optionDest": "disable_windowed_traceback",
+   "value": false
+  },
+  {
+   "optionDest": "uac_admin",
+   "value": false
+  },
+  {
+   "optionDest": "uac_uiaccess",
+   "value": false
+  },
+  {
+   "optionDest": "argv_emulation",
+   "value": false
+  },
+  {
+   "optionDest": "bootloader_ignore_signals",
+   "value": false
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Users/rando/Downloads/Test_Folder/Thermodynamics.py;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Users/rando/Downloads/Test_Folder/Wave_Analysis.py;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Users/rando/Downloads/Test_Folder/Solid_Mechanics.py;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Users/rando/Downloads/Test_Folder/Standard_Properties.py;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Users/rando/Downloads/Test_Folder/Heat_Transfer.py;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Users/rando/Downloads/Test_Folder/Fluid_Mechanics.py;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Users/rando/Downloads/Test_Folder/__init__.py;."
+  },
+  {
+   "optionDest": "collect_all",
+   "value": "pyromat"
+  },
+  {
+   "optionDest": "pathex",
+   "value": "C:/Users/rando/AppData/Local/Programs/Python/Python311/Lib/site-packages/pyromat"
+  }
+ ],
+ "nonPyinstallerOptions": {
+  "increaseRecursionLimit": true,
+  "manualArguments": "--hidden-import=pyromat --hidden-import=numpy.core._dtype_ctypes --hidden-import=sympy --hidden-import=sympy.abc --hidden-import=scipy.signal --hidden-import=matplotlib --hidden-import=matplotlib.backends.backend_qt5agg --hidden-import=control --hidden-import=control.matlab"
+ }
+}
