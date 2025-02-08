@@ -15,3 +15,5 @@ Afterwards, please pick the function you need from the libary in the "Select Fun
 When you are done with this, please click the "Calcualte" button at the bottom. This will get you the results in the "Output Data" section. If the function is best represented as a graph, please look at the "Output Figure" section:
 
 ![alt text](https://github.com/DonNguyen123/Don-Public-Projects/blob/c1e5b103b85ca60a65a87580e0be3471e3f2a11a/Example%20Images/See_Result.png)
+
+If you wish to manipulate the exe file directly, please download and unzip "SEF App Version A.zip". If you wish to have the raw python libaries in one place to use without the GUI, please use "SEF Code Libary". Use code at your own risk.
