@@ -2,7 +2,7 @@
 
 Hello,
 
-The code provided is esentually a GUI for some common engineeering formulas. To use the code directly, just download and run "SEF_App_Version_A_Standalone.exe". Then a screen similar to below will show:
+The code provided is esentually a GUI for some common engineeering formulas in wave analysis, solid mechanics, therodynamics, fluid dynamics, heat transfer, etc. To use the code directly, just download and run "SEF_App_Version_A_Standalone.exe". Then a screen similar to below will show:
 
 ![alt text](https://github.com/DonNguyen123/Don-Public-Projects/blob/13e5491a0a19b7032d2215c0851cb5612658fe6a/Example%20Images/Main_Interface.png)
 
