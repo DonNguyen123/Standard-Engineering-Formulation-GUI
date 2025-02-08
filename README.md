@@ -1,3 +1,5 @@
+<a href="https://www.buymeacoffee.com/DonNguyen123" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+
 Hello,
 
 The code provided is esentually a GUI for some common engineeering formulas. To use the code directly, just download and run "SEF_App_Version_A_Standalone.exe". Then a screen similar to below will show:
