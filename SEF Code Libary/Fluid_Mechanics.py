@@ -25,9 +25,21 @@ v (float): Velocity (ft/sec or m/s)
 def manning_equation(k, n, a, rh, s):
     q = (k / n) * a * (rh**(2/3)) * (s**(1/2))
     v = (k / n) * (rh**(2/3)) * (s**(1/2))
-    return q, v
 
+    # Create a formatted string representation of the results
+    class FormattedDict(dict):
+        def __str__(self):
+            return '\n'.join(f'{key}: {value:_.4g}' if isinstance(value, (int, float)) 
+                           else f'{key}: {value}'
+                           for key, value in self.items())
+        
+        def __repr__(self):
+            return self.__str__()
 
+    return FormattedDict({
+        'Discharge': q,
+        'Velocity': v,
+    })
 
 """
 Calculates the discharge (Q) and velocity (v) using Hazen-Williams Equation.
@@ -47,9 +59,21 @@ v (float): Velocity (ft/sec or m/s)
 def hazen_williams_equation(k1, c, S, A, rh):
     v = k1 * c * (rh**0.63) * (S**0.54)
     q = k1 * c * A * (rh**0.63) * (S**0.54)
-    return q, v
 
+    # Create a formatted string representation of the results
+    class FormattedDict(dict):
+        def __str__(self):
+            return '\n'.join(f'{key}: {value:_.4g}' if isinstance(value, (int, float)) 
+                           else f'{key}: {value}'
+                           for key, value in self.items())
+        
+        def __repr__(self):
+            return self.__str__()
 
+    return FormattedDict({
+        'Discharge': q,
+        'Velocity': v,
+    })
 
 """
 Calculates the discharge (Q) from a submerged orifice operating under steady-flow conditions.
