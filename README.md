@@ -19,3 +19,7 @@ When you are done with this, please click the "Calcualte" button at the bottom. 
 ![alt text](https://github.com/DonNguyen123/Don-Public-Projects/blob/c1e5b103b85ca60a65a87580e0be3471e3f2a11a/Example%20Images/See_Result.png)
 
 If you wish to have the raw python libaries in one place to use without the GUI, please use "SEF Code Libary". Use code at your own risk.
+
+If you like this project, please see my other projects, or visit my website at: 
+https://widget-hub.com
+
